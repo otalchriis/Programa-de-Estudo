@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script  defer src="JS/script.js"></script>
+    <title>Projeto Estudar</title>
+</head>
+<body>
+    <header>
+    <h1>Programa de Estudo das Escrituras</h1>    
+    </header>
+    <main>
+        <section class="bloco-input">
+                <select name="livros">
+                        <option value="esc">Escrituras</option> 
+                        <option value="lm">Livro de Mórmon</option> 
+                        <option value="dc">Doutrina & Convenios</option> 
+                        <option value="pv">Pérola de Grande Valor</option> 
+                        <option value="nt">Novo Testamento</option> 
+                        <option value="vt">Velho Testamento</option> 
+                </select><br><br>
+            <div class="menu">
+                        <select name="lm">
+                        <option value="livro">Selevione o Livro</option> 
+                        <option value="1né">1 Nefi</option> 
+                        <option value="2né">2 Nefi</option> 
+                        <option value="jacó">Jacó</option> 
+                        <option value="en">Enos</option> 
+                        <option value="jar">Jarom</option> 
+                        <option value="ômni">Omni</option> 
+                        <option value="pal">Palavras de Mormon</option> 
+                        <option value="mos">Mosias</option> 
+                        <option value="al">Alma</option> 
+                        <option value="hel">Helamã</option> 
+                        <option value="3né">3 Nefi</option> 
+                        <option value="4né">4 Nefi</option> 
+                        <option value="morm">Mórmon</option> 
+                        <option value="ét">Éter</option> 
+                        <option value="morô">Moroni</option> 
+                        </select>
+            </div>
+            <div class="menu2">
+                        <select name="vs">
+                        <option value="estado">Capitulo</option> 
+                        <option value="ac">1</option> 
+                        <option value="al">2</option> 
+                        <option value="am">3</option> 
+                        <option value="ap">4</option> 
+                        <option value="ba">5</option> 
+                        <option value="ce">6</option> 
+                        <option value="df">7</option> 
+                        <option value="es">8</option> 
+                        <option value="go">9</option> 
+                        <option value="ma">10</option> 
+                        <option value="mt">11</option> 
+                        <option value="ms">12</option> 
+                        <option value="mg">13</option> 
+                        <option value="pa">14</option> 
+                        <option value="pb">15</option> 
+                        <option value="pr">16</option> 
+                        <option value="pe">17</option> 
+                        <option value="pi">18</option> 
+                        <option value="rj">19</option> 
+                        <option value="rn">20</option> 
+                        <option value="ro">21</option> 
+                        <option value="rs">22</option> 
+                        <option value="rr">23</option> 
+                        <option value="sc">24</option> 
+                        <option value="se">25</option> 
+                        <option value="sp">26</option> 
+                        <option value="to">27</option>                     </div>
+                        </select>:
+                    <select name="vs">
+                    <option value="estado">Versiculo</option> 
+                    <option value="ac">1</option> 
+                    <option value="al">2</option> 
+                    <option value="am">3</option> 
+                    <option value="ap">4</option> 
+                    <option value="ba">5</option> 
+                    <option value="ce">6</option> 
+                    <option value="df">7</option> 
+                    <option value="es">8</option> 
+                    <option value="go">9</option> 
+                    <option value="ma">10</option> 
+                    <option value="mt">11</option> 
+                    <option value="ms">12</option> 
+                    <option value="mg">13</option> 
+                    <option value="pa">14</option> 
+                    <option value="pb">15</option> 
+                    <option value="pr">16</option> 
+                    <option value="pe">17</option> 
+                    <option value="pi">18</option> 
+                    <option value="rj">19</option> 
+                    <option value="rn">20</option> 
+                    <option value="ro">21</option> 
+                    <option value="rs">22</option> 
+                    <option value="rr">23</option> 
+                    <option value="sc">24</option> 
+                    <option value="se">25</option> 
+                    <option value="sp">26</option> 
+                    <option value="to">27</option>                     </div>
+                    </select>
+            </div><br>
+        <div class="menu3">
+            <div>
+                Data Início:<br>
+                <input type="date">
+            </div>
+            <div>
+                Data Fim:<br>
+                <input type="date">
+            </div>
+        </div><br>
+        <button id='botao' type="submit">ENVIAR</button>
+
+        </section>
+        <section>
+            <div id='titulo-total'>
+                <p>...</p>
+                <p>...</p>
+            </div>
+            <div id='total-de-casos'>
+
+            </div>
+            <p id="total">Total: <span id="valor-total" ></span></p>
+        </section>
+    </main>
+    <footer>
+        <div>By: Chriis</div>
+    </footer>
+</body>
+</html>
